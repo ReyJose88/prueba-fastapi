@@ -1,5 +1,5 @@
 ## Requisitos 
-*   Python 3.12+
+*   Python 3.12 o mayor
 *   Docker (para la base de datos)
 *   pip y un entorno virtual
 
@@ -42,3 +42,4 @@ alembic upgrade head
 
 ## Poner a correr el servidor
 uvicorn app.main:app --reload
+
